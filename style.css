@@ -8,13 +8,6 @@ body{
 	padding: 2rem;
 }
 
-.carosel header{
-	display: flex;
-	justify-content: space-between;
-
-	padding: 1em 2em;
-}
-
 .searchResult{
 	display: flex;
 	gap: .5em;
@@ -22,7 +15,7 @@ body{
 	padding: 1em;
 
 	font-size: 3rem;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 .searchResult li {
