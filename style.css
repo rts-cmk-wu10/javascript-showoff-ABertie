@@ -4,10 +4,25 @@
 	box-sizing: border-box;
 }
 
+body{
+	padding: 2rem;
+}
+
+.carosel header{
+	display: flex;
+	justify-content: space-between;
+
+	padding: 1em 2em;
+}
+
 .searchResult{
 	display: flex;
-	flex-wrap: wrap;
 	gap: .5em;
+
+	padding: 1em;
+
+	font-size: 3rem;
+	overflow-y: scroll;
 }
 
 .searchResult li {
@@ -19,7 +34,7 @@
 	align-items: center;
 	justify-content: center;
 
-	padding: 2rem 1rem;
+	padding: 2em 1em;
 	box-shadow: 1px 1px 5px rgb(30 30 30 / 0.2);
 	border-radius: 5px;
 
@@ -37,6 +52,6 @@
 }
 
 .cardFamily{
-	font-size: 2.5rem;
+	font-size: 2.5em;
 }
 
