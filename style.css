@@ -3,3 +3,40 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.searchResult{
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5em;
+}
+
+.searchResult li {
+	list-style-type: none;
+}
+
+.card{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 2rem 1rem;
+	box-shadow: 1px 1px 5px rgb(30 30 30 / 0.2);
+	border-radius: 5px;
+
+	position: relative;
+}
+
+.joker .cardType{
+	display: none;
+}
+
+.cardType{
+	color: whitesmoke;
+	
+	position: absolute;
+}
+
+.cardFamily{
+	font-size: 2.5rem;
+}
+
